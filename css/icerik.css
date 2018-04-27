@@ -1,0 +1,306 @@
+@media (max-width: 992px){
+    .navbar.navbar-transparent {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding-top: 10px;
+        border-radius: 0;
+    }
+}
+
+
+@media (max-width: 768px){
+    .brand {
+        margin-top: 20vh; 
+    }
+    .brand h1{
+        font-size: 2.5em;
+    }
+
+    #home{
+
+        height: 1000px;
+    }
+}
+
+
+
+/*----------------------------------------------------------responsive----------------------------------------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600|Catamaran:300,500,600,700,800,900');
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-size: 15px;
+}
+body, button, input, optgroup, select, {
+    font-family: 'Hind';
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+.title {
+    margin-bottom: 35px;
+    min-height: 32px;
+    font-weight: 700;
+}
+.heading-light{
+    font-weight: 300 !important;
+}
+.heading-medium{
+    font-weight: 500 !important;
+}
+.heading-semi-bold{
+    font-weight: 600 !important;
+}
+.heading-bold{
+    font-weight: 700 !important;
+}
+.heading-semi-black{
+    font-weight: 800 !important;
+}
+.heading-black{
+    font-weight: 900 !important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,
+.title, .heading-light, .heading-medium, .heading-semi-bold,
+.heading-bold, .heading-semi-black, .heading-black{
+    font-family: 'Catamaran';
+}
+/*----------------------------------------------------------body----------------------------------------------------------*/
+
+
+.hero-header {
+    height: 100vh;
+    background-image: url(img/bg2.jpg);
+    min-height: 300px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.colored-section.hero-header{
+    background-image: url(img/bg3.jpg);
+}
+.hero-header .container{
+    z-index: 2;
+    position: relative;
+}
+.brand {
+    margin-top: 20vh;
+    color: #fff;
+    text-align: center;
+}
+.brand h1 {
+    font-size: 3.8em;
+    font-weight: 800;
+}
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600|Catamaran:300,500,600,700,800,900');
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-size: 15px;
+}
+body, button, input, optgroup, select, {
+    font-family: 'Hind';
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+.title {
+    margin-bottom: 35px;
+    min-height: 32px;
+    font-weight: 700;
+}
+.heading-light{
+    font-weight: 300 !important;
+}
+.heading-medium{
+    font-weight: 500 !important;
+}
+.heading-semi-bold{
+    font-weight: 600 !important;
+}
+.heading-bold{
+    font-weight: 700 !important;
+}
+.heading-semi-black{
+    font-weight: 800 !important;
+}
+.heading-black{
+    font-weight: 900 !important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,
+.title, .heading-light, .heading-medium, .heading-semi-bold,
+.heading-bold, .heading-semi-black, .heading-black{
+    font-family: 'Catamaran';
+}
+/*----------------------------------------------
+* Sections
+----------------------------------------------*/
+
+.hero-header {
+    height: 100vh;
+    background-image: url(img/bg2.jpg);
+    min-height: 300px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.colored-section.hero-header{
+    background-image: url(img/bg3.jpg);
+}
+.hero-header .container{
+    z-index: 2;
+    position: relative;
+}
+.brand {
+    margin-top: 20vh;
+    color: #fff;
+    text-align: center;
+}
+.brand h1 {
+    font-size: 3.8em;
+    font-weight: 800;
+}
+@media (max-width: 768px){
+    .brand {
+        margin-top: 20vh; 
+    }
+    .brand h1{
+        font-size: 2.5em;
+    }
+
+    #home{
+
+        height: 1000px;
+    }
+}
+
+section {
+    padding: 80px 0px;
+}
+
+/*----------------------------------------------
+* Navigation
+----------------------------------------------*/
+.navbar{
+    min-height: 70px;
+}
+.navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.nav-brand-logo{
+    width: 60px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: .5rem 1rem !important;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 38px;
+}
+.navbar-nav .nav-link em, .navbar-nav .nav-link i{
+    font-size: 18px;
+}
+.navbar.navbar-transparent {
+    background-color: transparent;
+    box-shadow: none;
+    color: #fff;
+    padding-bottom: 0;
+    padding-top: 25px;
+}
+@media (max-width: 992px){
+    .navbar.navbar-transparent {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding-top: 10px;
+        border-radius: 0;
+    }
+}
+
+/*----------------------------------------------
+* Form Elemanları
+----------------------------------------------*/
+.form-control{
+    font-size: 15px;
+    padding: .65rem .75rem;
+    
+}
+.form-control:focus{
+    outline:solid;
+    box-shadow: none;
+    transition-duration: 0.3s;
+}
+.form-control-lg{
+    padding: .85rem 0.85rem;
+    font-size: 16px;
+}
+.form-control-sm{
+    padding: .45rem 0.55rem;
+    font-size: 12px;
+}
+    
+/*
+renkler:
+Primary: #6200ea / rgb(98,0,234)
+Info:    #00b0ff / rgb(0,176,255)
+Success: #00c853 / rgb(0,200,83)
+warning: #ff9100 / rgb(255,145,0)
+danger:  #ff1744 / rgb(255,23,68)
+*/
+/*butonlar*/
+#ozel:hover{
+     background-color: white;
+ color:  #6200ea;
+}
+
+#giris:hover{
+     background-color: white;
+ color:  #6200ea;
+}
+#giris{
+    
+    top: 5px;
+}
+
+kbd{
+    background-color: #6200ea;
+}
+/*----------------------------------------------------------section1----------------------------------------------------------*/
+section {
+    padding: 80px 0px;
+}
+
+
+
+    
+/*
+renkler:
+Primary: #6200ea / rgb(98,0,234)
+Info:    #00b0ff / rgb(0,176,255)
+Success: #00c853 / rgb(0,200,83)
+warning: #ff9100 / rgb(255,145,0)
+danger:  #ff1744 / rgb(255,23,68)
+*/
+/*butonlar*/
+#ozel:hover{
+     background-color: white;
+ color:  #6200ea;
+}
+
+#giris:hover{
+     background-color: white;
+ color:  #6200ea;
+}
+#giris{
+    
+    top: 5px;
+}
